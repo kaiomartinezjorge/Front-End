@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let nome = String(prompt("Qual o seu nome?: "));
+let qntnotas = Number(prompt("Digite quantas notas deseja inserir: "));
+
+let soma = 0;
+
+for (let i = 0; i < qntnotas; i++) {
+  let nota = Number(prompt("Digite a nota " + (i + 1) + ": "));
+  soma += nota;
+}
+
+
+let media = soma / qntnotas;
+
+alert(nome + ", sua média final é: " + media.toFixed(2));
+
+    </script>
+</body>
+</html>

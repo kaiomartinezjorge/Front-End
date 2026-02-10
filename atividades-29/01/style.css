@@ -1,0 +1,26 @@
+*{
+    background-color: aqua;
+}
+
+h1{
+    color: blueviolet;
+    text-align: center;
+}
+
+img,a,li{
+    margin: 0 auto;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+li{
+    display: flex;
+    color: chocolate;
+}
+
+p{
+    text-align: center;
+    padding: 5px;
+    border: 5px solid black;
+}
