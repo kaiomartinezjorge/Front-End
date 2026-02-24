@@ -1,26 +1,23 @@
 const mensagem = "   JavaScript é Incrível!   ";
 
-// 1. Tamanho (inclui espaços)
-console.log(mensagem.length); // 28
 
-// 2. Limpeza (Remove espaços do início e fim - Trim)
-console.log(mensagem.trim()); // "JavaScript é Incrível!"
+console.log(mensagem.length); 
 
-// 3. Maiúsculas e Minúsculas (Normalização)
+
+console.log(mensagem.trim()); 
+
+
 const textoLimpo = mensagem.trim();
-console.log(textoLimpo.toUpperCase()); // "JAVASCRIPT É INCRÍVEL!"
-console.log(textoLimpo.toLowerCase()); // "javascript é incrível!"
+console.log(textoLimpo.toUpperCase()); 
+console.log(textoLimpo.toLowerCase()); 
 
-// 4. Substituição (Replace)
-console.log(textoLimpo.replace("Incrível", "Poderoso")); // "JavaScript é Poderoso!"
+console.log(textoLimpo.replace("Incrível", "Poderoso")); 
 
-// 5. Cortar texto (Slice)
-// slice(inicio, fim)
-console.log(textoLimpo.slice(0, 10)); // "JavaScript"
+console.log(textoLimpo.slice(0, 10)); 
 
-// 6. Transformar em Array (Split)
+
 const tags = "JS,Frontend,React";
-console.log(tags.split(",")); // ["JS", "Frontend", "React"]
+console.log(tags.split(",")); 
 
-// 7. Verificar conteúdo (Includes)
-console.log(textoLimpo.includes("Java")); // true
+
+console.log(textoLimpo.includes("Java")); 
