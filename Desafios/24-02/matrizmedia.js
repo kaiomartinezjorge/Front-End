@@ -12,7 +12,13 @@ for (let i = 0; i < qntalunos; i++) {
   alunos[i] = [];
   for (let j = 0; j < 3; j++) {
     let nota = Number(prompt("Digite a nota da disciplina " + materias[j] + " do aluno " + (i + 1) + ": "));
-    alunos[i].push(nota);
+
+      while (nota[j] > 10 && nota[j] < 0) {
+        console.log("Digite apenas notas entre 10 e 0")
+      }
+        alunos[i].push(nota);
+      
+    
   }
 }
 
